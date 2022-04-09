@@ -16,9 +16,9 @@ const toLocaleDateStringFactory =
   };
 const dateTimeOptions: Intl.DateTimeFormatOptions = {
   weekday: "short",
-  year: "numeric",
-  month: "long",
-  day: "numeric",
+  year: "2-digit",
+  month: "2-digit",
+  day: "2-digit",
 };
 
 export const TaskListTableDefault: React.FC<{
