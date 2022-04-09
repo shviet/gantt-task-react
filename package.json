@@ -1,11 +1,14 @@
 {
-  "name": "gantt-task-react",
+  "name": "gantt-task-react-shv",
   "version": "0.3.8",
   "description": "Interactive Gantt Chart for React with TypeScript.",
   "author": "MaTeMaTuK <maksym.vikarii@gmail.com>",
   "homepage": "https://github.com/MaTeMaTuK/gantt-task-react",
   "license": "MIT",
-  "repository": "MaTeMaTuK/gantt-task-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaTeMaTuK/gantt-task-react.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -74,5 +77,11 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/MaTeMaTuK/gantt-task-react/issues"
+  },
+  "directories": {
+    "example": "example"
+  }
 }
